@@ -1,6 +1,7 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: grafana
-  annotations:
-    "helm.sh/hook": pre-install
+#apiVersion: v1
+#kind: Namespace
+#metadata:
+#  name: grafana
+#  annotations:
+#    "helm.sh/hook": pre-install
+#
