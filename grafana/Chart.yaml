@@ -5,6 +5,6 @@ type: application
 version: 0.1.0
 appVersion: "0.1.0"
 dependencies:
-  - name: traefik
+  - name: grafana
     version: v35.4.0
-    repository: https://traefik.github.io/charts
+    repository: https://grafana.github.io/helm-charts
