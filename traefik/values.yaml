@@ -1,0 +1,20 @@
+traefik:
+  namespaceOverride: traefik
+  ingressRoute:
+    dashboard:
+      enabled: true
+      
+  ports:
+    traefik:
+      expose:
+        default: true
+    websecure:
+      transport:
+        insecureSkipVerify: true
+
+  providers:
+    kubernetesCRD:
+      allowCrossNamespace: true
+    
+  additionalArguments:
+    - "--api.insecure=true"
