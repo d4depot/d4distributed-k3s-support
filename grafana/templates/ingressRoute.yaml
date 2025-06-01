@@ -11,5 +11,5 @@ spec:
       match: "Host(`grafana.example.com`)"
       priority: 10
       services:
-        - name: graafana
+        - name: grafana
           port: 80
